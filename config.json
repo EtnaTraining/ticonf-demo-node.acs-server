@@ -1,0 +1,15 @@
+{
+  "routes":
+  [
+    { "path": "/", "callback": "application#index" },
+    {"path": "/vote/:id_question/:id_answer", "callback": "application#vote"}
+  ],
+  "filters":
+  [
+  	 { "path": "/", "callback": "" }
+  ],
+  "websockets":
+  [
+  	{ "event": "vote", "callback": "poll#pollChoice"}
+  ]
+}

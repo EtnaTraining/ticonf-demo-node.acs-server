@@ -1,0 +1,24 @@
+{
+  "name": "realtime-polling",
+  "version": "0.1.1",
+  "description": "",
+  "framework": "mvc",
+  "main": "app.js",
+  "logfile" : "realtime-polling.log",
+  "keywords": [
+  ],
+  "author": "",
+  "maintainers": [
+  ],
+  "contributors": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "preferGlobal": false,
+  "dependencies": {
+  },
+  "license":"",
+  "private": true
+}
